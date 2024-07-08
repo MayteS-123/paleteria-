@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>"Dulce Renacer"</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #D2BFCE;
+            color: #333;
+        }
+
+        /* Encabezado */
+        header {
+            background-color:#bd70bd;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-bottom: 20px;
+        }
+
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        /* Contenido principal */
+        .container {
+            width: 80%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            border-radius: 10px;
+        }
+
+        .container p {
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        /* Sección de productos */
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-gap: 20px;
+            margin-top: 20px;
+        }
+
+        .product {
+            background-color: #D3;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .product:hover {
+            transform: translateY(-5px);
+        }
+
+        .product img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+
+        .product h3 {
+            font-size: 1.5em;
+            color: #300;
+            margin-top: 5px;
+        }
+
+        .product p {
+            color: #666;
+        }
+
+        /* Pie de página */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>DULCE RENACER</h1>
+       <h1 style="font-size: 24px;">¡𝑷𝒂𝒍𝒆𝒕𝒂𝒔 𝒒𝒖𝒆 𝒓𝒆𝒇𝒓𝒆𝒔𝒄𝒂𝒏 𝒆𝒍 𝒂𝒍𝒎𝒂!</h1>
+    <img src="../Users/INVITADO ALUMNO/Pictures/LOGO DANYY.png" width="200" height="200"  alt="1" margin"6"/> </header>
+
+    <div class="container">
+      <h2>Nuestras Paletas</h2>
+
+        <div class="products">
+            <div class="product">
+                <img src="imagenes/AGUAS.jfif" alt="Paleta de fresa"
+                alt="" 
+       title="" 
+       width="300"
+        height="390" >
+                <h3>AGUAS</h3>
+                <p>Deliciosa paleta de fresa con trozos de fruta fresca.</p>
+            </div>
+            <div class="product">
+                <img src="imagenes/123333.jpg" alt="Paleta de mango"
+                alt="" 
+       title="" 
+       width="500"
+        height="360" >
+                <h3>HELADOS</h3>
+                <p>Refrescante paleta de mango elaborada con fruta madura.</p>
+            </div>
+            <div class="product">
+                <img src="imagenes/licuados.jpg" alt="Paleta de coco"
+                alt="" 
+       title="" 
+       width="500"
+        height="330" >
+                <h3>LICUADOS</h3>
+                <p>Exquisita paleta de coco con trozos de coco fresco.</p>
+            </div>
+            <div class="product">
+                <img src="imagenes/páletas.jpg" alt="Paleta de piña"
+                alt="" 
+       title="" 
+       width="500"
+        height="300" >
+                <h3>PALETAS</h3>
+                <p>Irresistible paleta de piña con un toque ácido y dulce.</p>
+            </div>
+            <div id="contacto">
+            <h2>PALETAS</h2>
+            <form id="contactForm">
+                <input type="text" name="nombre" placeholder="Nombre" required>
+                <input type="email" name="email" placeholder="Correo Electrónico" required>
+                <textarea name="mensaje" placeholder="Mensaje" rows="4" required></textarea>
+                <input type="submit" value="Enviar">
+              
+            </form>
+        </div>
+        </div>
+    </div>
+   
+    <footer>
+      
+    </footer>
+</body>
+</html>
